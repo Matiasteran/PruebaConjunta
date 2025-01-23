@@ -5,10 +5,10 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Cliente": {
+    "/api/Citas": {
       "get": {
         "tags": [
-          "Cliente"
+          "Citas"
         ],
         "responses": {
           "200": {
@@ -18,23 +18,23 @@
       },
       "post": {
         "tags": [
-          "Cliente"
+          "Citas"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Cliente"
+                "$ref": "#/components/schemas/Cita"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Cliente"
+                "$ref": "#/components/schemas/Cita"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Cliente"
+                "$ref": "#/components/schemas/Cita"
               }
             }
           }
@@ -46,10 +46,10 @@
         }
       }
     },
-    "/api/Cliente/{id}": {
+    "/api/Citas/{id}": {
       "get": {
         "tags": [
-          "Cliente"
+          "Citas"
         ],
         "parameters": [
           {
@@ -70,7 +70,7 @@
       },
       "put": {
         "tags": [
-          "Cliente"
+          "Citas"
         ],
         "parameters": [
           {
@@ -87,17 +87,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Cliente"
+                "$ref": "#/components/schemas/Cita"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Cliente"
+                "$ref": "#/components/schemas/Cita"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Cliente"
+                "$ref": "#/components/schemas/Cita"
               }
             }
           }
@@ -110,7 +110,7 @@
       },
       "delete": {
         "tags": [
-          "Cliente"
+          "Citas"
         ],
         "parameters": [
           {
@@ -130,10 +130,10 @@
         }
       }
     },
-    "/api/Habitacion": {
+    "/api/Consultorio": {
       "get": {
         "tags": [
-          "Habitacion"
+          "Consultorio"
         ],
         "responses": {
           "200": {
@@ -143,23 +143,23 @@
       },
       "post": {
         "tags": [
-          "Habitacion"
+          "Consultorio"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Habitacion"
+                "$ref": "#/components/schemas/Consultorio"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Habitacion"
+                "$ref": "#/components/schemas/Consultorio"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Habitacion"
+                "$ref": "#/components/schemas/Consultorio"
               }
             }
           }
@@ -171,10 +171,10 @@
         }
       }
     },
-    "/api/Habitacion/{id}": {
+    "/api/Consultorio/{id}": {
       "get": {
         "tags": [
-          "Habitacion"
+          "Consultorio"
         ],
         "parameters": [
           {
@@ -195,7 +195,7 @@
       },
       "put": {
         "tags": [
-          "Habitacion"
+          "Consultorio"
         ],
         "parameters": [
           {
@@ -212,17 +212,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Habitacion"
+                "$ref": "#/components/schemas/Consultorio"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Habitacion"
+                "$ref": "#/components/schemas/Consultorio"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Habitacion"
+                "$ref": "#/components/schemas/Consultorio"
               }
             }
           }
@@ -235,7 +235,7 @@
       },
       "delete": {
         "tags": [
-          "Habitacion"
+          "Consultorio"
         ],
         "parameters": [
           {
@@ -255,10 +255,10 @@
         }
       }
     },
-    "/api/Reserva": {
+    "/api/Medico": {
       "get": {
         "tags": [
-          "Reserva"
+          "Medico"
         ],
         "responses": {
           "200": {
@@ -268,23 +268,23 @@
       },
       "post": {
         "tags": [
-          "Reserva"
+          "Medico"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Reserva"
+                "$ref": "#/components/schemas/Medico"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Reserva"
+                "$ref": "#/components/schemas/Medico"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Reserva"
+                "$ref": "#/components/schemas/Medico"
               }
             }
           }
@@ -296,10 +296,10 @@
         }
       }
     },
-    "/api/Reserva/{id}": {
+    "/api/Medico/{id}": {
       "get": {
         "tags": [
-          "Reserva"
+          "Medico"
         ],
         "parameters": [
           {
@@ -320,7 +320,7 @@
       },
       "put": {
         "tags": [
-          "Reserva"
+          "Medico"
         ],
         "parameters": [
           {
@@ -337,17 +337,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Reserva"
+                "$ref": "#/components/schemas/Medico"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Reserva"
+                "$ref": "#/components/schemas/Medico"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Reserva"
+                "$ref": "#/components/schemas/Medico"
               }
             }
           }
@@ -360,7 +360,7 @@
       },
       "delete": {
         "tags": [
-          "Reserva"
+          "Medico"
         ],
         "parameters": [
           {
@@ -380,10 +380,10 @@
         }
       }
     },
-    "/api/ServicioAdicional": {
+    "/api/Paciente": {
       "get": {
         "tags": [
-          "ServicioAdicional"
+          "Paciente"
         ],
         "responses": {
           "200": {
@@ -393,23 +393,23 @@
       },
       "post": {
         "tags": [
-          "ServicioAdicional"
+          "Paciente"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ServicioAdicional"
+                "$ref": "#/components/schemas/Paciente"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/ServicioAdicional"
+                "$ref": "#/components/schemas/Paciente"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/ServicioAdicional"
+                "$ref": "#/components/schemas/Paciente"
               }
             }
           }
@@ -421,10 +421,10 @@
         }
       }
     },
-    "/api/ServicioAdicional/{id}": {
+    "/api/Paciente/{id}": {
       "get": {
         "tags": [
-          "ServicioAdicional"
+          "Paciente"
         ],
         "parameters": [
           {
@@ -445,7 +445,7 @@
       },
       "put": {
         "tags": [
-          "ServicioAdicional"
+          "Paciente"
         ],
         "parameters": [
           {
@@ -462,17 +462,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/ServicioAdicional"
+                "$ref": "#/components/schemas/Paciente"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/ServicioAdicional"
+                "$ref": "#/components/schemas/Paciente"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/ServicioAdicional"
+                "$ref": "#/components/schemas/Paciente"
               }
             }
           }
@@ -485,7 +485,7 @@
       },
       "delete": {
         "tags": [
-          "ServicioAdicional"
+          "Paciente"
         ],
         "parameters": [
           {
@@ -508,10 +508,83 @@
   },
   "components": {
     "schemas": {
-      "Cliente": {
+      "Cita": {
+        "required": [
+          "consultorio",
+          "consultorioId",
+          "fecha",
+          "hora",
+          "id",
+          "medico",
+          "medicoId",
+          "paciente",
+          "pacienteId"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pacienteId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "paciente": {
+            "$ref": "#/components/schemas/Paciente"
+          },
+          "medicoId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "medico": {
+            "$ref": "#/components/schemas/Medico"
+          },
+          "fecha": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "hora": {
+            "type": "string",
+            "format": "date-span"
+          },
+          "consultorioId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "consultorio": {
+            "$ref": "#/components/schemas/Consultorio"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Consultorio": {
+        "required": [
+          "id",
+          "numero",
+          "piso"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "numero": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "piso": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Medico": {
         "required": [
           "apellido",
-          "cedula",
+          "especialidad",
           "id",
           "nombre"
         ],
@@ -529,93 +602,20 @@
             "type": "string",
             "nullable": true
           },
-          "edad": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "cedula": {
+          "especialidad": {
             "type": "string",
             "nullable": true
           }
         },
         "additionalProperties": false
       },
-      "Habitacion": {
+      "Paciente": {
         "required": [
-          "costo",
-          "id"
-        ],
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "capacidad": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "numeroDeHabitacion": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "costo": {
-            "type": "number",
-            "format": "double"
-          },
-          "piso": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Reserva": {
-        "required": [
-          "cliente",
-          "fechaDeFin",
-          "fechaDeInicio",
-          "fechaDeReserva",
-          "habitacion",
-          "id"
-        ],
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "cliente": {
-            "$ref": "#/components/schemas/Cliente"
-          },
-          "habitacion": {
-            "$ref": "#/components/schemas/Habitacion"
-          },
-          "fechaDeReserva": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "fechaDeInicio": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "fechaDeFin": {
-            "type": "string",
-            "format": "date-time"
-          }
-        },
-        "additionalProperties": false
-      },
-      "ServicioAdicional": {
-        "required": [
-          "costo",
-          "descripcion",
+          "apellido",
+          "email",
+          "fechaNacimiento",
           "id",
-          "reserva"
+          "nombre"
         ],
         "type": "object",
         "properties": {
@@ -623,16 +623,21 @@
             "type": "integer",
             "format": "int32"
           },
-          "descripcion": {
+          "nombre": {
             "type": "string",
             "nullable": true
           },
-          "costo": {
-            "type": "number",
-            "format": "double"
+          "apellido": {
+            "type": "string",
+            "nullable": true
           },
-          "reserva": {
-            "$ref": "#/components/schemas/Reserva"
+          "fechaNacimiento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

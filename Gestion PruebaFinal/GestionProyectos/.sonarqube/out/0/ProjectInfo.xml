@@ -3,15 +3,15 @@
   <ProjectName>prueba</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
-  <ProjectGuid>48c57f23-7172-46ec-878a-eb2f5ddd18b6</ProjectGuid>
-  <FullPath>C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\prueba.csproj</FullPath>
+  <ProjectGuid>f7a4f2f2-81b5-4992-ab3b-98141459ed52</ProjectGuid>
+  <FullPath>C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\prueba.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
-    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\.sonarqube\conf\0\FilesToAnalyze.txt" />
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\.sonarqube\conf\0\FilesToAnalyze.txt" />
   </AnalysisResults>
   <AnalysisSettings>
-    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\.sonarqube\out\0\Issues.json</Property>
-    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\.sonarqube\out\0</Property>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\.sonarqube\out\0\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\.sonarqube\out\0</Property>
   </AnalysisSettings>
   <Configuration>Debug</Configuration>
   <Platform>AnyCPU</Platform>

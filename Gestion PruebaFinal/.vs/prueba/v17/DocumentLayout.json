@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|c:\\users\\matia\\onedrive\\escritorio\\prueba_conjunta\\pruebaconjunta\\gestion pruebafinal\\gestionproyectos\\migrations\\20250120230010_initalcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|solutionrelative:gestionproyectos\\migrations\\20250120230010_initalcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|c:\\users\\matia\\onedrive\\escritorio\\prueba_conjunta\\pruebaconjunta\\gestion pruebafinal\\gestionproyectos\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|solutionrelative:gestionproyectos\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|c:\\users\\matia\\onedrive\\escritorio\\prueba_conjunta\\pruebaconjunta\\gestion pruebafinal\\gestionproyectos\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|solutionrelative:gestionproyectos\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|c:\\users\\matia\\onedrive\\escritorio\\prueba_conjunta\\pruebaconjunta\\gestion pruebafinal\\gestionproyectos\\controllers\\consultoriocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|solutionrelative:gestionproyectos\\controllers\\consultoriocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|c:\\users\\matia\\onedrive\\escritorio\\prueba_conjunta\\pruebaconjunta\\gestion pruebafinal\\gestionproyectos\\controllers\\servicioadicionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|solutionrelative:gestionproyectos\\controllers\\servicioadicionalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|c:\\users\\matia\\onedrive\\escritorio\\prueba_conjunta\\pruebaconjunta\\gestion pruebafinal\\gestionproyectos\\controllers\\medicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|solutionrelative:gestionproyectos\\controllers\\medicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|c:\\users\\matia\\onedrive\\escritorio\\prueba_conjunta\\pruebaconjunta\\gestion pruebafinal\\gestionproyectos\\controllers\\habitacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|solutionrelative:gestionproyectos\\controllers\\habitacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|c:\\users\\matia\\onedrive\\escritorio\\prueba_conjunta\\pruebaconjunta\\gestion pruebafinal\\gestionproyectos\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|solutionrelative:gestionproyectos\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|c:\\users\\matia\\onedrive\\escritorio\\prueba_conjunta\\pruebaconjunta\\gestion pruebafinal\\gestionproyectos\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|solutionrelative:gestionproyectos\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|c:\\users\\matia\\onedrive\\escritorio\\prueba_conjunta\\pruebaconjunta\\gestion pruebafinal\\gestionproyectos\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|solutionrelative:gestionproyectos\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|c:\\users\\matia\\onedrive\\escritorio\\prueba_conjunta\\pruebaconjunta\\gestion pruebafinal\\gestionproyectos\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4EEB617F-C2A1-42A5-B13D-C7CC63B4C659}|GestionProyectos\\prueba.csproj|solutionrelative:gestionproyectos\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,64 +42,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250120230010_InitalCreate.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Migrations\\20250120230010_InitalCreate.cs",
-              "RelativeDocumentMoniker": "GestionProyectos\\Migrations\\20250120230010_InitalCreate.cs",
-              "ToolTip": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Migrations\\20250120230010_InitalCreate.cs",
-              "RelativeToolTip": "GestionProyectos\\Migrations\\20250120230010_InitalCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAARAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": ".env",
+              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\.env",
+              "RelativeDocumentMoniker": "GestionProyectos\\.env",
+              "ToolTip": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\.env",
+              "RelativeToolTip": "GestionProyectos\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-23T16:20:33.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "GestionProyectos\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\AppDBContext.cs",
+              "RelativeToolTip": "GestionProyectos\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T03:19:16.945Z",
+              "WhenOpened": "2025-01-23T15:30:07.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PacienteController.cs",
+              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\PacienteController.cs",
+              "RelativeDocumentMoniker": "GestionProyectos\\Controllers\\PacienteController.cs",
+              "ToolTip": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\PacienteController.cs",
+              "RelativeToolTip": "GestionProyectos\\Controllers\\PacienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T16:29:47.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MedicoController.cs",
+              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\MedicoController.cs",
+              "RelativeDocumentMoniker": "GestionProyectos\\Controllers\\MedicoController.cs",
+              "ToolTip": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\MedicoController.cs",
+              "RelativeToolTip": "GestionProyectos\\Controllers\\MedicoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T16:33:37.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CitaController.cs",
+              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\CitaController.cs",
+              "RelativeDocumentMoniker": "GestionProyectos\\Controllers\\CitaController.cs",
+              "ToolTip": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\CitaController.cs",
+              "RelativeToolTip": "GestionProyectos\\Controllers\\CitaController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAswI8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T16:34:11.033Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\ClienteController.cs",
-              "RelativeDocumentMoniker": "GestionProyectos\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\ClienteController.cs",
-              "RelativeToolTip": "GestionProyectos\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAuwJQAAAAWAAAAAAAAAA==",
+              "Title": "ConsultorioController.cs",
+              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\ConsultorioController.cs",
+              "RelativeDocumentMoniker": "GestionProyectos\\Controllers\\ConsultorioController.cs",
+              "ToolTip": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\ConsultorioController.cs",
+              "RelativeToolTip": "GestionProyectos\\Controllers\\ConsultorioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T16:29:47.14Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HabitacionController.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\HabitacionController.cs",
-              "RelativeDocumentMoniker": "GestionProyectos\\Controllers\\HabitacionController.cs",
-              "ToolTip": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\HabitacionController.cs",
-              "RelativeToolTip": "GestionProyectos\\Controllers\\HabitacionController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T16:33:37.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ReservaController.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\ReservaController.cs",
-              "RelativeDocumentMoniker": "GestionProyectos\\Controllers\\ReservaController.cs",
-              "ToolTip": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\ReservaController.cs",
-              "RelativeToolTip": "GestionProyectos\\Controllers\\ReservaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T16:34:11.033Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServicioAdicionalController.cs",
-              "DocumentMoniker": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\ServicioAdicionalController.cs",
-              "RelativeDocumentMoniker": "GestionProyectos\\Controllers\\ServicioAdicionalController.cs",
-              "ToolTip": "C:\\Users\\matia\\OneDrive\\Escritorio\\Prueba_Conjunta\\PruebaConjunta\\Gestion PruebaFinal\\GestionProyectos\\Controllers\\ServicioAdicionalController.cs",
-              "RelativeToolTip": "GestionProyectos\\Controllers\\ServicioAdicionalController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwDEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T16:34:28.534Z"
+              "WhenOpened": "2025-01-16T16:34:28.534Z",
+              "EditorCaption": ""
             }
           ]
         }

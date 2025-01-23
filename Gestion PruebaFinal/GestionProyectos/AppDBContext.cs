@@ -7,47 +7,46 @@ namespace prueba
     {
         public AppDBContext(DbContextOptions<AppDBContext> options) : base(options) { }
 
-        public DbSet<Cliente> Clientes { get; set; }
-        public DbSet<Habitacion> Habitaciones { get; set; }
-        public DbSet<Reserva> Reservas { get; set; }
-        public DbSet<ServicioAdicional> ServiciosAdicionales { get; set; }
+        public DbSet<Paciente> Pacientes { get; set; }
+        public DbSet<Medico> Medicos { get; set; }
+        public DbSet<Cita> Citas { get; set; }
+        public DbSet<Consultorio> Consultorios { get; set; }
     }
-
-    public class Cliente
+        public class Paciente
     {
         public required int Id { get; set; }
         public required string Nombre { get; set; }
-
         public required string Apellido { get; set; }
-
-        public int? Edad { get; set; }
-        public required string Cedula { get; set; }
+        [JsonRequired] public DateTime FechaNacimiento { get; set; }
+        public required string Email { get; set; }
     }
 
-    public class Habitacion
+    public class Medico
     {
         public required int Id { get; set; }
-        public int? Capacidad { get; set; }
-        public int? NumeroDeHabitacion { get; set; }
-        [JsonRequired] public decimal Costo { get; set; }
-        public int? Piso { get; set; }
+        public required string Nombre { get; set; }
+        public required string Apellido { get; set; }
+        public required string Especialidad { get; set; }
     }
-
-    public class Reserva
+    public class Consultorio
     {
         public required int Id { get; set; }
-        public required Cliente Cliente { get; set; } = null!;
-        public required Habitacion Habitacion { get; set; } = null!; 
-        [JsonRequired] public DateTime FechaDeReserva { get; set; }
-        [JsonRequired] public DateTime FechaDeInicio { get; set; }
-        [JsonRequired] public DateTime FechaDeFin { get; set; }
+        public required int Numero { get; set; }
+        public required int Piso { get; set; }
     }
 
-    public class ServicioAdicional
+    public class Cita
     {
         public required int Id { get; set; }
-        public required string Descripcion { get; set; } = null!;
-        [JsonRequired] public decimal Costo { get; set; }
-        public required Reserva Reserva { get; set; } = null!;
+        public required int PacienteId { get; set; }
+        public required Paciente Paciente { get; set; } = null!;
+        public required int MedicoId { get; set; }
+        public required Medico Medico { get; set; } = null!;
+        [JsonRequired] public DateTime Fecha { get; set; }
+        [JsonRequired] public TimeSpan Hora { get; set; }
+        public required int ConsultorioId { get; set; }
+        public required Consultorio Consultorio { get; set; } = null!;
     }
+
+    
 }

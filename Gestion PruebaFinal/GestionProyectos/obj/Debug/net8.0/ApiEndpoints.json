@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "prueba.Controllers.ClienteController",
-    "Method": "GetClientes",
-    "RelativePath": "api/Cliente",
+    "ContainingType": "Prueba.Controllers.CitasController",
+    "Method": "GetCitas",
+    "RelativePath": "api/Citas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,25 +10,25 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.ClienteController",
-    "Method": "CreateCliente",
-    "RelativePath": "api/Cliente",
+    "ContainingType": "Prueba.Controllers.CitasController",
+    "Method": "CreateCita",
+    "RelativePath": "api/Citas",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cliente",
-        "Type": "prueba.Cliente",
+        "Name": "cita",
+        "Type": "prueba.Cita",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.ClienteController",
-    "Method": "GetCliente",
-    "RelativePath": "api/Cliente/{id}",
+    "ContainingType": "Prueba.Controllers.CitasController",
+    "Method": "GetCita",
+    "RelativePath": "api/Citas/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -42,9 +42,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.ClienteController",
-    "Method": "EditCliente",
-    "RelativePath": "api/Cliente/{id}",
+    "ContainingType": "Prueba.Controllers.CitasController",
+    "Method": "EditCita",
+    "RelativePath": "api/Citas/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -55,17 +55,17 @@
         "IsRequired": true
       },
       {
-        "Name": "cliente",
-        "Type": "prueba.Cliente",
+        "Name": "cita",
+        "Type": "prueba.Cita",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.ClienteController",
-    "Method": "DeleteCliente",
-    "RelativePath": "api/Cliente/{id}",
+    "ContainingType": "Prueba.Controllers.CitasController",
+    "Method": "DeleteCita",
+    "RelativePath": "api/Citas/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -79,9 +79,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.HabitacionController",
-    "Method": "GetHabitaciones",
-    "RelativePath": "api/Habitacion",
+    "ContainingType": "prueba.Controllers.ConsultorioController",
+    "Method": "GetConsultorios",
+    "RelativePath": "api/Consultorio",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -89,25 +89,25 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.HabitacionController",
-    "Method": "CreateHabitacion",
-    "RelativePath": "api/Habitacion",
+    "ContainingType": "prueba.Controllers.ConsultorioController",
+    "Method": "CreateConsultorio",
+    "RelativePath": "api/Consultorio",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "habitacion",
-        "Type": "prueba.Habitacion",
+        "Name": "consultorio",
+        "Type": "prueba.Consultorio",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.HabitacionController",
-    "Method": "GetHabitacion",
-    "RelativePath": "api/Habitacion/{id}",
+    "ContainingType": "prueba.Controllers.ConsultorioController",
+    "Method": "GetConsultorio",
+    "RelativePath": "api/Consultorio/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -121,9 +121,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.HabitacionController",
-    "Method": "EditHabitacion",
-    "RelativePath": "api/Habitacion/{id}",
+    "ContainingType": "prueba.Controllers.ConsultorioController",
+    "Method": "EditConsultorio",
+    "RelativePath": "api/Consultorio/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -134,17 +134,17 @@
         "IsRequired": true
       },
       {
-        "Name": "habitacion",
-        "Type": "prueba.Habitacion",
+        "Name": "consultorio",
+        "Type": "prueba.Consultorio",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.HabitacionController",
-    "Method": "DeleteHabitacion",
-    "RelativePath": "api/Habitacion/{id}",
+    "ContainingType": "prueba.Controllers.ConsultorioController",
+    "Method": "DeleteConsultorio",
+    "RelativePath": "api/Consultorio/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -158,9 +158,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.ReservaController",
-    "Method": "GetReservas",
-    "RelativePath": "api/Reserva",
+    "ContainingType": "prueba.Controllers.MedicoController",
+    "Method": "GetMedicos",
+    "RelativePath": "api/Medico",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -168,25 +168,25 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.ReservaController",
-    "Method": "CreateReserva",
-    "RelativePath": "api/Reserva",
+    "ContainingType": "prueba.Controllers.MedicoController",
+    "Method": "CreateMedico",
+    "RelativePath": "api/Medico",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "reserva",
-        "Type": "prueba.Reserva",
+        "Name": "medico",
+        "Type": "prueba.Medico",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.ReservaController",
-    "Method": "GetReserva",
-    "RelativePath": "api/Reserva/{id}",
+    "ContainingType": "prueba.Controllers.MedicoController",
+    "Method": "GetMedico",
+    "RelativePath": "api/Medico/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -200,9 +200,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.ReservaController",
-    "Method": "EditReserva",
-    "RelativePath": "api/Reserva/{id}",
+    "ContainingType": "prueba.Controllers.MedicoController",
+    "Method": "EditMedico",
+    "RelativePath": "api/Medico/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -213,17 +213,17 @@
         "IsRequired": true
       },
       {
-        "Name": "reserva",
-        "Type": "prueba.Reserva",
+        "Name": "medico",
+        "Type": "prueba.Medico",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.ReservaController",
-    "Method": "DeleteReserva",
-    "RelativePath": "api/Reserva/{id}",
+    "ContainingType": "prueba.Controllers.MedicoController",
+    "Method": "DeleteMedico",
+    "RelativePath": "api/Medico/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -237,9 +237,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.ServicioAdicionalController",
-    "Method": "GetServiciosAdicionales",
-    "RelativePath": "api/ServicioAdicional",
+    "ContainingType": "prueba.Controllers.PacienteController",
+    "Method": "GetPacientes",
+    "RelativePath": "api/Paciente",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -247,25 +247,25 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.ServicioAdicionalController",
-    "Method": "CreateServicioAdicional",
-    "RelativePath": "api/ServicioAdicional",
+    "ContainingType": "prueba.Controllers.PacienteController",
+    "Method": "CreatePaciente",
+    "RelativePath": "api/Paciente",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "servicio",
-        "Type": "prueba.ServicioAdicional",
+        "Name": "paciente",
+        "Type": "prueba.Paciente",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.ServicioAdicionalController",
-    "Method": "GetServicioAdicional",
-    "RelativePath": "api/ServicioAdicional/{id}",
+    "ContainingType": "prueba.Controllers.PacienteController",
+    "Method": "GetPaciente",
+    "RelativePath": "api/Paciente/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -279,9 +279,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.ServicioAdicionalController",
-    "Method": "EditServicioAdicional",
-    "RelativePath": "api/ServicioAdicional/{id}",
+    "ContainingType": "prueba.Controllers.PacienteController",
+    "Method": "EditPaciente",
+    "RelativePath": "api/Paciente/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -292,17 +292,17 @@
         "IsRequired": true
       },
       {
-        "Name": "servicio",
-        "Type": "prueba.ServicioAdicional",
+        "Name": "paciente",
+        "Type": "prueba.Paciente",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "prueba.Controllers.ServicioAdicionalController",
-    "Method": "DeleteServicioAdicional",
-    "RelativePath": "api/ServicioAdicional/{id}",
+    "ContainingType": "prueba.Controllers.PacienteController",
+    "Method": "DeletePaciente",
+    "RelativePath": "api/Paciente/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,

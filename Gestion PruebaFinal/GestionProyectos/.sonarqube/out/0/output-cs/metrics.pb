@@ -1,16 +1,16 @@
-ö
-cC:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\Program.cs(r	
+®
+qC:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\Program.cs(r	
  !$%&'Ç	
  !$%&'≈
-ÇC:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\Migrations\20250120230010_InitalCreate.cs 8j
-vry !"$%&'()*+,-./012456789:;<=>?@ABCDEFGHIJKLMNOQRSTUVWXYZ[\]^_`abcdfghiklmnpqrstwxyz|}ÄÇÉÑÖÜÇ5!$&(*+,-/1468:;<=>@BCEHIKNQSUWXY[]^`cfkpy|Ç∂
-ÉC:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\Controllers\ServicioAdicionalController.cs/ 8rm	
- !"#$%')*,-./01245678:;<=?@ABDEFGHJLMOQSTUVXYZ\^_`acdefhijklnoprsuvxyz{|~ÅÇÉÑxÇ4!"#$%')/157:<?ADEGJLMOVXYZ\^`cehiknoprsu{|~ÅÃ
-yC:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\Controllers\ReservaController.cs3 8r	
- !"#$&()+,-./0124579;<=>@ABCEGHIJKMNOPQSTVWYZ[\]_`bcefghjklmopqrtuvwyz{|~ÄÅÇÑÖÜáâäåçéèxÇC!"#$&(./1457>@ABCEGHJMNOPQSTV\]_`bghjloqtvy{~ÄÅÇÑÜâäå∞
-|C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\Controllers\HabitacionController.cs5 8$ro	
- !"#$%&()*+-./0134569:;<>?@BDEFGIJLMNOQRSTVWXYZ\]^_abcdhijknoqrtuvwxz{|}~ÄÅÉÑÖÜxÇ4#%(*-.0359;>?@GIJLNQSVWY\^achijknoqwxz{}ÄÅÉ”
-yC:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\Controllers\ClienteController.csS 8)r⁄	
- !"$%&'()*+./01234589:;<=>?@ABCGHIJMNOPQSTUVYZ[\^_bcdefghilmnopqrsvwxyz{|}~ÄÅÑÖÜáäãåçéëíìîñóôöùûü†°£§•¶ß©™¨≠±≤≥¥µ∂∏∫ªºΩ¿¡√ƒ≈∆«… ÀÕŒ–—x#Çn$&(*.0248:<>@BGIMNPSTU\^_bdfhlnprvxz|~ÄÑÜäãçëíìîñóô†°£§¶©™¨≥µ∏∫º¿√≈∆…ÀÕü
-hC:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\AppDBContext.cs 181r-
- !"$%&'()*+,./012345
+êC:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\Migrations\20250123164018_InitalCreate.cs 8jnrn	
+ !"#$%&'()+,-./0123456789;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\^_`acdefhijklopqrtuwxz{|}~Ç2 "#$&(+-/123468;=?ABCDEGIJLOPRUVX[^chqtwz√
+àC:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\Controllers\PacienteController.cs7 8rt	
+!"#$%&'()*,-./012356789:;<>?@ACDFGHIJKLMOPQRSUVWXZ[\]_`bcdefhijklnopqstvwyz{|}ÄÇÉÑÖxÇ5#%'),.02579;>@CIJLOPRUVW]_`bcehiknopqstv|}ÄÇ¨
+ÜC:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\Controllers\MedicoController.cs2 8rf	
+!"#$%&'()*,-./01235678:;=>?@ABCDFGHIJLMNOQRSTVWYZ[\]_`abcefgijlmopqrsuvxyz{xÇ.#%'),.0257:@ACFGILMNTVWYZ\_`befgijlrsuvxå
+ãC:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\Controllers\ConsultorioController.cs% 8rN	
+ "#$%&'()+,./1234679:;<=?@BCEFHIJKLNOQRTUVWXY[\]^`abcxÇ!%&(+,.4679:<?@BCEKLNOQVX[]`ë
+ÑC:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\Controllers\CitaController.csI 8j5rî	
+ !"#$%&')*+,-/023678:;<=>@ACDEFGIJLMNOQRSTUVXY[\^_abcdeghijkmnpqrstvwyz{|}ÄÅÇÑÖÜáâäåçèêíìïñòôõúùûxÇc !"#$%&,-/023678:;=@ACDEFGIOQRSTUVXY[\^_abcdeghjmnpqrstv|}ÄÅÜáâäåçèêíìïñòôõÆ
+vC:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\AppDBContext.cs 383r.
+ !"#$&'()*+,-./014

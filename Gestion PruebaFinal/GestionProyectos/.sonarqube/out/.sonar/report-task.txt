@@ -1,6 +1,6 @@
-projectKey=PruebaP2
+projectKey=PruebaConjunta
 serverUrl=http://localhost:9000
 serverVersion=25.1.0.102122
-dashboardUrl=http://localhost:9000/dashboard?id=PruebaP2
-ceTaskId=8686e90c-9daa-4329-bebb-9f078001f2e2
-ceTaskUrl=http://localhost:9000/api/ce/task?id=8686e90c-9daa-4329-bebb-9f078001f2e2
+dashboardUrl=http://localhost:9000/dashboard?id=PruebaConjunta
+ceTaskId=5e6a2eb7-9a74-4390-af25-09e9d7844ab3
+ceTaskUrl=http://localhost:9000/api/ce/task?id=5e6a2eb7-9a74-4390-af25-09e9d7844ab3

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AnalysisConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <SonarConfigDir>C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\.sonarqube\conf</SonarConfigDir>
-  <SonarOutputDir>C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\.sonarqube\out</SonarOutputDir>
-  <SonarBinDir>C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\.sonarqube\bin</SonarBinDir>
-  <SonarScannerWorkingDirectory>C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos</SonarScannerWorkingDirectory>
+  <SonarConfigDir>C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\.sonarqube\conf</SonarConfigDir>
+  <SonarOutputDir>C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\.sonarqube\out</SonarOutputDir>
+  <SonarBinDir>C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\.sonarqube\bin</SonarBinDir>
+  <SonarScannerWorkingDirectory>C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos</SonarScannerWorkingDirectory>
   <JavaExePath>C:\Users\matia\.sonar\cache\11a61a94d383e755b08b4e5890a13d148bc9f95b7149cbbeec62efb8c75a4a67\OpenJDK17U-jre_x64_windows_hotspot_17.0.13_11.zip_extracted\jdk-17.0.13+11-jre/bin/java.exe</JavaExePath>
   <ScanAllAnalysis>true</ScanAllAnalysis>
   <HasBeginStepCommandLineCredentials>true</HasBeginStepCommandLineCredentials>
   <SonarQubeHostUrl>http://localhost:9000</SonarQubeHostUrl>
   <SonarQubeVersion>25.1.0.102122</SonarQubeVersion>
-  <SonarProjectKey>PruebaP2</SonarProjectKey>
+  <SonarProjectKey>PruebaConjunta</SonarProjectKey>
   <AdditionalConfig>
     <ConfigSetting Id="BuildUri" />
     <ConfigSetting Id="TfsUri" />
     <ConfigSetting Id="VsCoverageConverterToolPath" />
     <ConfigSetting Id="UnchangedFilesPath" />
-    <ConfigSetting Id="sonar.pullrequest.cache.basepath" Value="C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos" />
+    <ConfigSetting Id="sonar.pullrequest.cache.basepath" Value="C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos" />
     <ConfigSetting Id="settings.file.path" Value="C:\Users\matia\.dotnet\tools\.store\dotnet-sonarscanner\9.0.2\dotnet-sonarscanner\9.0.2\tools\netcoreapp3.1\any\SonarQube.Analysis.xml" />
   </AdditionalConfig>
   <ServerSettings>
@@ -143,7 +143,7 @@
     <Property Name="sonar.java.jvmframeworkconfig.activate">true</Property>
     <Property Name="sonar.updatecenter.url">https://downloads.sonarsource.com/sonarqube/update/update-center.properties</Property>
     <Property Name="sonar.core.id">147B411E-AZRltkxaSwSZANNUNeoS</Property>
-    <Property Name="sonar.core.startTime">20/1/2025 18:48:00</Property>
+    <Property Name="sonar.core.startTime">23/1/2025 10:06:16</Property>
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">http://localhost:9000</Property>
@@ -151,8 +151,8 @@
   <AnalyzersSettings>
     <AnalyzerSettings>
       <Language>cs</Language>
-      <RulesetPath>C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\.sonarqube\conf\Sonar-cs.ruleset</RulesetPath>
-      <DeactivatedRulesetPath>C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\.sonarqube\conf\Sonar-cs-none.ruleset</DeactivatedRulesetPath>
+      <RulesetPath>C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\.sonarqube\conf\Sonar-cs.ruleset</RulesetPath>
+      <DeactivatedRulesetPath>C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\.sonarqube\conf\Sonar-cs-none.ruleset</DeactivatedRulesetPath>
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="10.4.0.108396" StaticResourceName="SonarAnalyzer-csharp-10.4.0.108396.zip">
           <AssemblyPaths>
@@ -168,13 +168,13 @@
         </AnalyzerPlugin>
       </AnalyzerPlugins>
       <AdditionalFilePaths>
-        <Path>C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\.sonarqube\conf\cs\SonarLint.xml</Path>
+        <Path>C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\.sonarqube\conf\cs\SonarLint.xml</Path>
       </AdditionalFilePaths>
     </AnalyzerSettings>
     <AnalyzerSettings>
       <Language>vbnet</Language>
-      <RulesetPath>C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\.sonarqube\conf\Sonar-vbnet.ruleset</RulesetPath>
-      <DeactivatedRulesetPath>C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\.sonarqube\conf\Sonar-vbnet-none.ruleset</DeactivatedRulesetPath>
+      <RulesetPath>C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\.sonarqube\conf\Sonar-vbnet.ruleset</RulesetPath>
+      <DeactivatedRulesetPath>C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\.sonarqube\conf\Sonar-vbnet-none.ruleset</DeactivatedRulesetPath>
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="10.4.0.108396" StaticResourceName="SonarAnalyzer-csharp-10.4.0.108396.zip">
           <AssemblyPaths>
@@ -190,7 +190,7 @@
         </AnalyzerPlugin>
       </AnalyzerPlugins>
       <AdditionalFilePaths>
-        <Path>C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\.sonarqube\conf\vbnet\SonarLint.xml</Path>
+        <Path>C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\.sonarqube\conf\vbnet\SonarLint.xml</Path>
       </AdditionalFilePaths>
     </AnalyzerSettings>
   </AnalyzersSettings>

@@ -1,1 +1,1 @@
-C:\Users\matia\OneDrive\Escritorio\Deberes\Pruebas\Gestion de Hotel M_A\GestionProyectos\.sonarqube\out\0
+C:\Users\matia\OneDrive\Escritorio\Prueba_Conjunta\PruebaConjunta\Gestion PruebaFinal\GestionProyectos\.sonarqube\out\0

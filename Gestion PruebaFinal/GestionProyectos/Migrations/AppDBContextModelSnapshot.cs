@@ -22,7 +22,60 @@ namespace prueba.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("prueba.Cliente", b =>
+            modelBuilder.Entity("prueba.Cita", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ConsultorioId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Fecha")
+                        .HasColumnType("datetime2");
+
+                    b.Property<TimeSpan>("Hora")
+                        .HasColumnType("time");
+
+                    b.Property<int>("MedicoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PacienteId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ConsultorioId");
+
+                    b.HasIndex("MedicoId");
+
+                    b.HasIndex("PacienteId");
+
+                    b.ToTable("Citas");
+                });
+
+            modelBuilder.Entity("prueba.Consultorio", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Numero")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Piso")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Consultorios");
+                });
+
+            modelBuilder.Entity("prueba.Medico", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -34,12 +87,9 @@ namespace prueba.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Cedula")
+                    b.Property<string>("Especialidad")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("Edad")
-                        .HasColumnType("int");
 
                     b.Property<string>("Nombre")
                         .IsRequired()
@@ -47,10 +97,10 @@ namespace prueba.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Clientes");
+                    b.ToTable("Medicos");
                 });
 
-            modelBuilder.Entity("prueba.Habitacion", b =>
+            modelBuilder.Entity("prueba.Paciente", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -58,108 +108,51 @@ namespace prueba.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int?>("Capacidad")
-                        .HasColumnType("int");
-
-                    b.Property<decimal>("Costo")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int?>("NumeroDeHabitacion")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("Piso")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Habitaciones");
-                });
-
-            modelBuilder.Entity("prueba.Reserva", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("ClienteId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("FechaDeFin")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("FechaDeInicio")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("FechaDeReserva")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("HabitacionId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("ClienteId");
-
-                    b.HasIndex("HabitacionId");
-
-                    b.ToTable("Reservas");
-                });
-
-            modelBuilder.Entity("prueba.ServicioAdicional", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<decimal>("Costo")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<string>("Descripcion")
+                    b.Property<string>("Apellido")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ReservaId")
-                        .HasColumnType("int");
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaNacimiento")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ReservaId");
-
-                    b.ToTable("ServiciosAdicionales");
+                    b.ToTable("Pacientes");
                 });
 
-            modelBuilder.Entity("prueba.Reserva", b =>
+            modelBuilder.Entity("prueba.Cita", b =>
                 {
-                    b.HasOne("prueba.Cliente", "Cliente")
+                    b.HasOne("prueba.Consultorio", "Consultorio")
                         .WithMany()
-                        .HasForeignKey("ClienteId")
+                        .HasForeignKey("ConsultorioId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("prueba.Habitacion", "Habitacion")
+                    b.HasOne("prueba.Medico", "Medico")
                         .WithMany()
-                        .HasForeignKey("HabitacionId")
+                        .HasForeignKey("MedicoId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Cliente");
-
-                    b.Navigation("Habitacion");
-                });
-
-            modelBuilder.Entity("prueba.ServicioAdicional", b =>
-                {
-                    b.HasOne("prueba.Reserva", "Reserva")
+                    b.HasOne("prueba.Paciente", "Paciente")
                         .WithMany()
-                        .HasForeignKey("ReservaId")
+                        .HasForeignKey("PacienteId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Reserva");
+                    b.Navigation("Consultorio");
+
+                    b.Navigation("Medico");
+
+                    b.Navigation("Paciente");
                 });
 #pragma warning restore 612, 618
         }

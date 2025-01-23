@@ -14,14 +14,14 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "El elemento propiedad \"Clientes\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "message": "El elemento propiedad \"Pacientes\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
           "suppressionStates": [
             "suppressedInSource"
           ],
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Deberes/Pruebas/Gestion%20de%20Hotel%20M_A/GestionProyectos/AppDBContext.cs",
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/AppDBContext.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 16,
@@ -34,12 +34,12 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Deberes/Pruebas/Gestion%20de%20Hotel%20M_A/GestionProyectos/AppDBContext.cs",
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/AppDBContext.cs",
                 "region": {
                   "startLine": 10,
-                  "startColumn": 31,
+                  "startColumn": 32,
                   "endLine": 10,
-                  "endColumn": 39
+                  "endColumn": 41
                 }
               }
             }
@@ -51,14 +51,14 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "El elemento propiedad \"Habitaciones\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "message": "El elemento propiedad \"Medicos\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
           "suppressionStates": [
             "suppressedInSource"
           ],
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Deberes/Pruebas/Gestion%20de%20Hotel%20M_A/GestionProyectos/AppDBContext.cs",
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/AppDBContext.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 16,
@@ -71,12 +71,12 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Deberes/Pruebas/Gestion%20de%20Hotel%20M_A/GestionProyectos/AppDBContext.cs",
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/AppDBContext.cs",
                 "region": {
                   "startLine": 11,
-                  "startColumn": 34,
+                  "startColumn": 30,
                   "endLine": 11,
-                  "endColumn": 46
+                  "endColumn": 37
                 }
               }
             }
@@ -88,14 +88,14 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "El elemento propiedad \"Reservas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "message": "El elemento propiedad \"Citas\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
           "suppressionStates": [
             "suppressedInSource"
           ],
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Deberes/Pruebas/Gestion%20de%20Hotel%20M_A/GestionProyectos/AppDBContext.cs",
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/AppDBContext.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 16,
@@ -108,12 +108,12 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Deberes/Pruebas/Gestion%20de%20Hotel%20M_A/GestionProyectos/AppDBContext.cs",
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/AppDBContext.cs",
                 "region": {
                   "startLine": 12,
-                  "startColumn": 31,
+                  "startColumn": 28,
                   "endLine": 12,
-                  "endColumn": 39
+                  "endColumn": 33
                 }
               }
             }
@@ -125,14 +125,14 @@
         {
           "ruleId": "CS8618",
           "level": "warning",
-          "message": "El elemento propiedad \"ServiciosAdicionales\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
+          "message": "El elemento propiedad \"Consultorios\" que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required'\"o declarar el propiedad como un valor que acepta valores NULL.",
           "suppressionStates": [
             "suppressedInSource"
           ],
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Deberes/Pruebas/Gestion%20de%20Hotel%20M_A/GestionProyectos/AppDBContext.cs",
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/AppDBContext.cs",
                 "region": {
                   "startLine": 8,
                   "startColumn": 16,
@@ -145,12 +145,12 @@
           "relatedLocations": [
             {
               "physicalLocation": {
-                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Deberes/Pruebas/Gestion%20de%20Hotel%20M_A/GestionProyectos/AppDBContext.cs",
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/AppDBContext.cs",
                 "region": {
                   "startLine": 13,
-                  "startColumn": 41,
+                  "startColumn": 35,
                   "endLine": 13,
-                  "endColumn": 61
+                  "endColumn": 47
                 }
               }
             }
@@ -160,18 +160,279 @@
           }
         },
         {
-          "ruleId": "S6444",
+          "ruleId": "S1192",
           "level": "warning",
-          "message": "Pass a timeout to limit the execution time.",
+          "message": "Define a constant instead of using this literal 'SqlServer:Identity' 4 times.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Deberes/Pruebas/Gestion%20de%20Hotel%20M_A/GestionProyectos/Controllers/ServicioAdicionalController.cs",
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
                 "region": {
-                  "startLine": 53,
-                  "startColumn": 18,
-                  "endLine": 53,
+                  "startLine": 19,
+                  "startColumn": 37,
+                  "endLine": 19,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 37,
+                  "endLine": 33,
+                  "endColumn": 57
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 37,
+                  "endLine": 48,
+                  "endColumn": 57
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 37,
+                  "endLine": 64,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'nvarchar(max)' 6 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 57,
+                  "endLine": 34,
+                  "endColumn": 72
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 59,
+                  "endLine": 35,
+                  "endColumn": 74
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 63,
+                  "endLine": 36,
+                  "endColumn": 78
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 57,
+                  "endLine": 49,
+                  "endColumn": 72
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 59,
+                  "endLine": 50,
+                  "endColumn": 74
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 56,
+                  "endLine": 52,
                   "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null,
+              "4": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1192",
+          "level": "warning",
+          "message": "Define a constant instead of using this literal 'Citas' 5 times.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 23,
+                  "endLine": 60,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 24,
+                  "endLine": 96,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 24,
+                  "endLine": 101,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 24,
+                  "endLine": 106,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Migrations/20250123164018_InitalCreate.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 23,
+                  "endLine": 114,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": null,
+              "1": null,
+              "2": null,
+              "3": null
+            }
+          }
+        },
+        {
+          "ruleId": "CA1847",
+          "level": "note",
+          "message": "Use 'string.Contains(char)' en lugar de 'string.Contains(string)' al buscar un solo carácter",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Controllers/PacienteController.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 87,
+                  "endLine": 62,
+                  "endColumn": 90
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2325",
+          "level": "warning",
+          "message": "Make 'ValidarCita' a static method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Controllers/CitaController.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 25,
+                  "endLine": 132,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"ValidarCita\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/matia/OneDrive/Escritorio/Prueba_Conjunta/PruebaConjunta/Gestion%20PruebaFinal/GestionProyectos/Controllers/CitaController.cs",
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 25,
+                  "endLine": 132,
+                  "endColumn": 36
                 }
               }
             }
@@ -182,6 +443,37 @@
         }
       ],
       "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Marcar miembros como static",
+          "fullDescription": "Los miembros que no tienen acceso a datos de instancia o que llaman a métodos de instancia se pueden marcar como static. Después de marcar los métodos como static, el compilador emitirá los sitios de llamada no virtuales para estos miembros. Esto puede proporcionar una mejora apreciable del rendimiento del código sensible al rendimiento.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1847": {
+          "id": "CA1847",
+          "shortDescription": "Usar literal de carácter para una búsqueda de caracteres individuales",
+          "fullDescription": "'string.Contains(char)' está disponible como una sobrecarga de mejor rendimiento para la búsqueda de caracteres únicos.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1847",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
         "CS8618": {
           "id": "CS8618",
           "shortDescription": "Un campo que no acepta valores NULL debe contener un valor distinto de NULL al salir del constructor. Considere la posibilidad de agregar el modificador \"required\" o declararlo como un valor que acepta valores NULL.",
@@ -196,18 +488,35 @@
             ]
           }
         },
-        "S6444": {
-          "id": "S6444",
-          "shortDescription": "Not specifying a timeout for regular expressions is security-sensitive",
-          "fullDescription": "Not specifying a timeout for regular expressions can lead to a Denial-of-Service attack. Pass a timeout when using System.Text.RegularExpressions to process untrusted input because a malicious user might craft a value for which the evaluation lasts excessively long.",
+        "S1192": {
+          "id": "S1192",
+          "shortDescription": "String literals should not be duplicated",
+          "fullDescription": "Duplicated string literals make the process of refactoring complex and error-prone, as any change would need to be propagated on all occurrences.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6444",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1192",
           "properties": {
-            "category": "Major Security Hotspot",
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2325": {
+          "id": "S2325",
+          "shortDescription": "Methods and properties that don't access instance data should be static",
+          "fullDescription": "Methods and properties that don’t access instance data should be marked as static for the following reasons:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2325",
+          "properties": {
+            "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
               "MainSourceScope",
+              "TestSourceScope",
               "SonarWay"
             ]
           }
